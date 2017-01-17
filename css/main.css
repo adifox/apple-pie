@@ -1,0 +1,50 @@
+body {
+    font-family: arial, helvetica, sans-serif;
+    text-align: center;
+    color: grey;
+    margin: 0;
+    padding: 0;
+}
+p {
+    font-size: 20px;
+}
+h1 {
+    z-index: 100;
+    color: white;
+    font-size: 60px;
+}
+h2 {
+    font-size: 25px;
+}
+ul li {
+    list-style: none;
+    text-align: left;
+}
+.container {
+    max-width: 80%;
+    max-height: none;
+    margin: auto;
+}
+
+.apple-pic {
+    max-width: 100%;
+    max-height: 100%;
+}
+.title {
+    z-index: 100;
+    margin-top: -600px;
+}
+.first-text {
+    margin-top: 550px;
+}
+.recipe-info, .cooking-info {
+    border-bottom: 4px;
+    border-bottom-color: grey;
+    border-bottom-style: solid;
+}
+.cooking{
+    max-height: 50px; 
+}
+.ingredients, .directions {
+    text-align: left;
+}
